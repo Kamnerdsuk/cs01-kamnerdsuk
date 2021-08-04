@@ -1,3 +1,6 @@
-A = int(input("Enter your number : "))
-for i in range(100) :
-    print(A+i)
+fruits = ["Cat" , "Dog" , "Bird" , "Cat" , "Bird" , "Dog"]
+for x in fruits :
+    print(x)
+    if (x == "Cat") :
+        print("Cat")
+        break
