@@ -38,7 +38,7 @@ Button(Ley,text="/",command=lambda:press("/")).grid(row=2,column=3)
 Button(Ley,text="4",command=lambda:press("4")).grid(row=3,column=0)
 Button(Ley,text="5",command=lambda:press("5")).grid(row=3,column=1)
 Button(Ley,text="6",command=lambda:press("6")).grid(row=3,column=2)
-Button(Ley,text="",command=lambda:press("")).grid(row=3,column=3)
+Button(Ley,text="*",command=lambda:press("*")).grid(row=3,column=3)
 
 Button(Ley,text="1",command=lambda:press("1")).grid(row=4,column=0)
 Button(Ley,text="2",command=lambda:press("2")).grid(row=4,column=1)
